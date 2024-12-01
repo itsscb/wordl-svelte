@@ -34,8 +34,8 @@
 			bind:value={l}
 			maxlength="1"
 			class="w-6 flex-grow rounded-lg border border-white px-4 py-3 text-center text-2xl"
-			oninput={(event) => oninput(event, i)}
-			onkeydown={(event) => onkeydown(event, i)}
+			oninput={(event: Event) => oninput(event, i)}
+			onkeydown={(event: KeyboardEvent) => onkeydown(event, i)}
 		/>
 	{/each}
 </div>
